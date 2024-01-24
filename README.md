@@ -55,7 +55,7 @@ conda activate ... ## the env name that exists except (base) env
     |    ├── 101.txt
     |    ├── ...
 
-- Please aware that `images/`contains all images for train and validation, and the `ann_train/` contains annotations for trainning image, `ann_val/` contains annotations for validation image.
+- Please aware that `images/`contains all images for train and validation, and the `ann_train/` contains annotations for trainning images, `ann_val/` contains annotations for validation images.
 
 - The format of `.txt` file in `ann_train/` or `ann_val/` is below, while 8 first numbers refer to 4 points of a bounding box clockwisely from top left. Following that is the class name of that bounding box and the difficulty (you can set it to 0).
 
@@ -119,7 +119,7 @@ Run this script:
 ```python
 CUDA_VISIBLE_DEVICES=0 python3 \
     tools/train.py \
-    your_config_file_path \
+    your_config_file_path \    # set your config file path
     --work-dir train/
 ```
 
