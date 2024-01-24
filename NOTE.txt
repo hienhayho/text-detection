@@ -1,0 +1,13 @@
+1. Visualize result 
+    - Cách 1: Dùng image_demo.py 
+        Fix show_result_pyplot() -> \
+        copy hàm show_result_pyplot() ở (https://github.com/open-mmlab/mmdetection/blob/master/mmdet/apis/inference.py#L15)
+        model.show_result() -> base.py \
+        trong base.py -> imshow_det_rbboxes() -> qua image.py
+        trong image.py comment các hàm draw_labels() -> ko visualize label, score
+    - Cách 2: image_demo_2.py
+
+2. Convert result format: [x,y,w,h,a,score] -> OBB:
+    default thrs = 0.3 \
+    image.py -> draw_rbboxes()
+

@@ -1,0 +1,1 @@
+from .image_demo_2 import init_detector, inference_detector
