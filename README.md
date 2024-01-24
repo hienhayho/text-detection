@@ -65,7 +65,7 @@ conda activate ... ## the env name that exists
 ```
 
 ## Training
-**1. About the pretrained model, you can download it from**: [here](https://drive.google.com/file/d/1Z_D5IcJx35gMHuwZYnNvZe7_N6dzPVPO/view?usp=sharing)
+**1. About the pretrained model, you can download it from**: [here](https://drive.google.com/file/d/1_puVSraP5g7w52JzChNtECsQZ-B_EUi-/view?usp=sharing)
 
 **2. In config file:**  `train/r3det_kfiou_ln_swin_tiny_adamw_fpn_1x_dota_ms_rr_oc_2_2.py`. 
 - Please set these values to your dataset:
