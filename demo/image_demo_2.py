@@ -5,6 +5,7 @@ from argparse import ArgumentParser
 import warnings
 import cv2
 import json
+import os
 
 import mmcv
 import numpy as np
@@ -299,6 +300,7 @@ def main(args):
             poly = np.int0(np.array([p1, p2, p3, p4]))
             polygons.append((poly))
         
+        os.makedirs(args.out_folder, exist_ok=True)
         img = mmcv.imread(osp.join(args.image_folder, image))
         # img_2 = img.copy()
         img_name = osp.join(args.image_folder, image).split('/')[-1]
