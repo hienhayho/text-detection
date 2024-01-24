@@ -92,12 +92,14 @@ data = dict(
         '...', ## Fill here
         img_prefix=
         '...', ## Fill here
+    ...
     test=dict(
         type='DOTADataset',
         ann_file=
         '...', ## Fill here
         img_prefix=
         '...', ## Fill here
+    ...
 ...
 
 #Set downloaded pretrained model path 
