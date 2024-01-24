@@ -134,7 +134,7 @@ CUDA_VISIBLE_DIVICES=0 python3
     train/your_config_file \  # set your config file
     train/epoch_50.pth \      # set your checkpoint
     --image-folder ... \      # your folder path contains images need to be inferenced
-    --out-folder result/ \
+    --out-folder result/
 ```
 
 > Note: For more information, please refer to `demo/image_demo_2.py`.
