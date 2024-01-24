@@ -35,7 +35,7 @@ conda activate openmmlab
 ```bash
 conda env list
 
-conda activate ... ## the env name that exists
+conda activate ... ## the env name that exists except (base) env
 ```
 
 ## Prepare dataset
