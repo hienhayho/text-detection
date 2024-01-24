@@ -8,7 +8,7 @@
 
 - `demo_data/` contains our own labeled dataset, which is presented in our report.
 
-- `demo_res/` contains some of inferenced images from the model.
+- `demo_res/` contains some inferenced images from the model.
 
 ## Set up environment
 
