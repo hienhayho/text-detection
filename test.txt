@@ -1,6 +1,0 @@
-Average Precision (AP) @[ IoU=0.50:0.95 | area=small  | maxdets=100] = 0.255
-Average Precision (AP) @[ IoU=0.50:0.95 | area=medium | maxdets=100] = 0.503
-Average Precision (AP) @[ IoU=0.50:0.95 | area=large  | maxdets=100] = 0.600
-Average Recall    (AR) @[ IoU=0.50:0.95 | area=small  | maxdets=100] = 0.287
-Average Recall    (AR) @[ IoU=0.50:0.95 | area=medium | maxdets=100] = 0.545
-Average Recall    (AR) @[ IoU=0.50:0.95 | area=large  | maxdets=100] = 0.600
